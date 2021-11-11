@@ -50,9 +50,9 @@ export default class App extends Component<Props, State> {
     constructor(props: Props | Readonly<Props>) {
         super(props)
         this.state = {
-            appId: '88de4357809a4b8698d461cb2e4387ed',
-            channelName: 'test',
-            token: '00688de4357809a4b8698d461cb2e4387edIACRXZo3soGj/9qEJvTRQcpIqM42GHXIw2yZsQiMFGz+0Ax+f9gAAAAAEACkCrtypu6NYQEAAQCl7o1h',
+            appId: 'YOUR_APPID',
+            channelName: 'YOUR_CHANNEL_NAME',
+            token: 'YOUR_TOKEN',
             joinSucceed: false,
             openMicrophone: true,
             enableSpeakerphone: true,
